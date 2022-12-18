@@ -1,0 +1,80 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    background-color: rgb(255, 218, 255);
+    padding: 30px 60px 30px 60px;
+}
+.Logo{
+    background-color: rgb(199, 95, 241);
+    padding: 5px;
+    flex: 1;
+    margin-bottom: 3px;
+    font-weight: bold; 
+    font-size: 40px;
+}
+.Nav{
+    background-color: rgb(199, 95, 241);
+    flex: 2;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 3px;
+    font-size: 30px;
+
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns:24.6% 24.6% 24.6%  24.6% ;
+    grid-template-rows: 150px 150px 150px 150px;
+    gap: 30px;
+    margin-bottom: 20px;
+    
+}
+.grid-items{
+    background-color: rgb(245, 245, 162);
+    width: 90%;
+    height: 100%;
+
+}
+.Box1{
+    background-color: rgb(245, 245, 162);
+    width: 48%;
+    height: 150px;
+    display: grid;
+    place-items: center;
+    font-weight: bold; 
+    font-size: 30px;
+
+
+}
+.Box2{
+    background-color: rgb(245, 245, 162);
+    width: 48%;
+    height: 150px;
+    display: grid;
+    place-items: center;
+    font-weight: bold; 
+    font-size: 30px;
+
+}
+.Box3{
+    background-color: rgb(245, 245, 162);
+    width: 48%;
+    height: 150px;
+    display: grid;
+    place-items: center;
+    font-weight: bold; 
+    font-size: 30px;
+}
+.Footer{
+    background-color: rgb(199, 95, 241);
+    padding: 10px;
+    margin-top: 20px;  
+    width: 99%;  
+    font-size: large;
+    text-align: center;
+    font-size: 30px;
+
+}

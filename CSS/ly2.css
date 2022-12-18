@@ -1,0 +1,58 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    background-color: rgb(255, 218, 255);
+    padding: 20px 60px 20px 60px;
+}
+.Logo{
+    background-color: rgb(199, 95, 241);
+    padding: 10px;
+    flex: 1;
+    font-weight: bold; 
+    font-size: 20px;
+}
+.Nav{
+    background-color: rgb(199, 95, 241);
+    padding: 10px;
+    flex: 2;
+    text-align: center;
+}
+
+.HB{
+    background-color: rgb(105, 129, 249);
+    padding: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.IT{
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.grid-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.grid-items{
+    background-color: rgb(245, 245, 162);
+    text-align: center;
+    padding: 35px;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    font-weight: bold; 
+    font-size: 30px;
+}
+.Footer{
+    background-color: rgb(251, 185, 151);
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
